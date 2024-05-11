@@ -1,0 +1,62 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .two-part-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 70%;
+  }
+  
+  .two-part {
+    display: flex;
+  }
+  
+  .one {
+    width: 30%;
+  }
+  
+  .two {
+    width: 70%;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 0.7rem;
+  }
+  
+  .card {
+    width: 33%;
+  }
+  
+  .card-img-top {
+      width: 100%;
+      height: 13vw;
+      object-fit: cover;
+  }
+  
+  .company-description {
+    width: 75%;
+  }
+  
+  .three {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .four {
+    width: 50%;
+  }
+  
+  .hide {
+    display: none;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
