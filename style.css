@@ -17,6 +17,8 @@
   
   .one {
     width: 30%;
+    display: flex;
+    justify-content: center;
   }
   
   .two {
