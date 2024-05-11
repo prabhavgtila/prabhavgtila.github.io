@@ -59,10 +59,6 @@
     display: none;
   }
 
-  .navbar-nav {
-    flex-direction: row;
-  }
-
   ul li {
     display: inline-block;
   }
