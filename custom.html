@@ -45,11 +45,38 @@
         Create a custom sized SPD model below:
       </p>
       <form action="get">
-        <input type="text" placeholder="First Name">
-        <input type="text" placeholder="Last Name">
+        <div class="form-container">
+            <label for="" class="h3">Personal Information</label>
+            <br>
+            <input type="text" class="form-control m-2 required" placeholder="First Name">
+            <input type="text" class="form-control m-2 required" placeholder="Last Name">
+            <br>
+            <label for="" class="h3">Car Measurements</label>
+            <br>
+            <input type="number" class="required form-control m-2" placeholder="Height (in.)">
+            <input type="number" class="form-control required m-2" placeholder="Width (in.)">
+            <br>
+            <label for="" class="h3">Billing Information</label>
+            <br>
+            <input type="text" class="form-control required m-2" placeholder="Address">
+            <input type="text" class="form-control m-2" placeholder="Secondary Address (Optional)">
+            <br>
+            <input type="number" class="form-control m-2 required" placeholder="Card Number">
+            <input type="number" class="form-control m-2 required" placeholder="CVV">
+            <br>
+            <label for="" class="form-label sm">*This doesn't work and is a mock website</label>
+            <br>
+            <button class="btn btn-primary m-2" type="submit" onclick="nothing()">
+                Order - ($449.99)
+            </button>
+        </div>
       </form>
     </div>
   </main>
+  <script>
+    function nothing() {
+        alert("You just ordered nothing!")
+    }
+  </script>
 </body>
-
 </html>
